@@ -1,7 +1,7 @@
 # Prueba Técnica: QA
 **Frontend Testing con React + Vitest**
 
-¡Bienvenido/a al equipo!
+¡Bienvenido/a!
 
 La prueba consiste en implementar las pruebas unitarias para nuestro componente base de interfaz de usuario (`ActionButton`) y proponer un **Pull Request** documentando tus hallazgos, herramientas y decisiones.
 
