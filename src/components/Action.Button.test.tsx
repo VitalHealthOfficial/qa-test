@@ -1,5 +1,6 @@
 import "@testing-library/jest-dom/vitest";
 // Importar las dependencias necesarias para realizar las pruebas unitarias
+// imaginate que complete la prueba
 // import { fireEvent, render, screen } from "@testing-library/react";
 // import { describe, expect, it, vi } from "vitest";
 // import ActionButton from "./ActionButton";
