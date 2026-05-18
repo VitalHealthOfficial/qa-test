@@ -1,0 +1,24 @@
+/**
+ * INDEX.CSS - Main Styles Entry Point
+ * 
+ * This is the main CSS file that imports all other style files.
+ * Follows TailwindCSS 4.0 architecture with proper import order.
+ * 
+ * Import Order (Critical for CSS Cascade):
+ * 1. Google Fonts - External fonts
+ * 2. TailwindCSS - Core framework
+ * 3. themes.css - Design tokens (@theme)
+ * 4. animations.css - Keyframes & animation classes
+ * 5. base.css - Base element styles (@layer base)
+ * 6. components.css - Complex component decorations (pure CSS)
+ * 7. utilities.css - Hierarchical utility system (@layer utilities)
+ * 
+ * Typography: Inter (Google Fonts) - Modern, readable typeface with variable font support
+ * Supports weights 100-900 with optical sizing for optimal legibility
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap");
+@import "tailwindcss";
+
+/* TailwindCSS custom directives */
+@import "./themes.css";
